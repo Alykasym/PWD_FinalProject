@@ -1,0 +1,160 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+
+    <title>Contact Us</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <a href="index.html"><img src="Images/logo.png" alt="Logo Image"></a>
+        </div>
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="store.html">Products</a></li>
+            <li><a href="benchmark.html">Benchmarks</a></li>
+            <li><a href="help.html">Help</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li>
+                <a>&nbsp;&nbsp;&nbsp;</a>
+            </li>
+            <div id="login_button_nav">
+                <a href="login_reg.html">
+                    <li><button class="login-button" id="login-button">Login</button></li>
+                </a>
+
+            </div>
+            <li><input type="image" class="cart_icon" name="<Cart>" src="Images/cart-icon.png" alt="Cart"><span class="item__total">0</span></li>
+
+        </ul>
+
+    </nav>
+
+    <section class="cart__overlay">
+        <div class="cart" style="color: white;">
+            <span class="close__cart">
+        <svg>
+          <use xlink:href="./images/sprite.svg#icon-cross"></use>
+        </svg>
+      </span>
+            <h1 style="color: white;">Your Cart</h1>
+            <div class="cart__centent">
+                <!-- Cart Item -->
+                <style>
+                    h3 {
+                        color: white;
+                    }
+                    
+                    .item__amount {
+                        color: white;
+                    }
+                </style>
+
+            </div>
+
+            <div class="cart__footer">
+                <h3 style="color: white;">Total: $ <span class="cart__total" style="color: white;">0</span></h3>
+                <button class="clear__cart btn">Clear Cart</button>
+                <button class="checkout btn" onclick="location.href='/checkout.html'">Checkout</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="product__center">
+        </div>
+
+
+    </section>
+    <div class="contact">
+        <!--contact-form-container------------------->
+        <section id="contact">
+
+            <!--contact-box------------->
+            <div class="contact-box">
+                <!--heading---------->
+                <div class="c-heading">
+                    <h1>Contact Us</h1>
+                    <p>Call Or Email Us Regarding Question Or Issues</p>
+                </div>
+                <!--inputs------------------>
+
+                <div class="c-inputs">
+                    <form action="mailto:alykasym@outlook.com" method="post" enctype="text/plain">
+                        <input type="text" placeholder="Full Name" />
+                        <input type="email" placeholder="Example@gmail.com" />
+                        <textarea name="message" placeholder="Write Message&#10;&#10;For Example:&#10;This deserves Full Mark!"></textarea>
+                        <!--sumbit-btn----------->
+                        <button>SEND</button>
+                    </form>
+                </div>
+
+            </div>
+
+            <!--map------------------->
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.1199373583117!2d101.61463661475706!3d3.0625880977697446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc4c5f9450eaf9%3A0xe4c38bd5f7d440b1!2sTaylor&#39;s%20Lakeside%20Campus!5e0!3m2!1sen!2smy!4v1626060732743!5m2!1sen!2smy"
+                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <footer class="footer-section">
+            <div class="container">
+
+                <div class="footer-content pt-5 pb-5">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 mb-50">
+                            <div class="footer-widget">
+                                <div class="footer-logo">
+                                    <a href="#"><img src="images/logo.png" class="img-fluid" alt="logo"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                            <div class="footer-widget">
+
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="store.html">Store</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="about.html">About us</a></li>
+                                    <li><a href="store.html">Our Services</a></li>
+                                    <li><a href="contact.html">Contact us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+
+
+</body>
+
+</html>

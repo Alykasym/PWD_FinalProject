@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link type="text/css" rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/styles.css" />
+
+
+    <title>Home | CudaWare Custom Computer Hardware & Accessories</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <a href="#"><img src="Images/logo.png" alt="Logo Image"></a>
+        </div>
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="store.html">Products</a></li>
+            <li><a href="benchmark.html">Benchmarks</a></li>
+            <li><a href="help.html">Help</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li>
+                <a>&nbsp;&nbsp;&nbsp;</a>
+            </li>
+            <div id="login_button_nav">
+                <a href="login_reg.html">
+                    <li><button class="login-button" id="login-button">Login</button></li>
+                </a>
+
+            </div>
+            <li><input type="image" class="cart_icon" name="<Cart>" src="Images/cart-icon.png" alt="Cart"><span class="item__total">0</span></li>
+
+        </ul>
+
+    </nav>
+
+    <section class="cart__overlay">
+        <div class="cart" style="color: white;">
+            <span class="close__cart">
+        <svg>
+          <use xlink:href="./images/sprite.svg#icon-cross"></use>
+        </svg>
+      </span>
+            <h1 style="color: white;">Your Cart</h1>
+            <div class="cart__centent">
+                <!-- Cart Item -->
+                <style>
+                    h3 {
+                        color: white;
+                    }
+                    
+                    .item__amount {
+                        color: white;
+                    }
+                </style>
+
+            </div>
+
+            <div class="cart__footer">
+                <h3 style="color: white;">Total: $ <span class="cart__total" style="color: white;">0</span></h3>
+                <button class="clear__cart btn">Clear Cart</button>
+                <button class="checkout btn" onclick="location.href='/checkout.html'">Checkout</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="product__center">
+        </div>
+    </section>
+    <div class="landing">
+        <div class="landing-text">
+            <h1>CUDAWARE</h1>
+            <h3>Custom Computer <br> Hardware & Accessories<br>&nbsp;</h3>
+            <h4>Cuda's Custom Computer Builder provide <br>services such as building computers,<br>components seller and benchmark. </h4>
+            <button class="shopnowbtn" onclick="location.href='/store.html'">Shop now</button>
+
+        </div>
+        <div id="stick"></div>
+        <div class="small-screen">
+
+            <h1>Style up your computer.<br> Premium accessories at an affordable price.</h1>
+            <p>Unzip your Computer now!</p>
+
+            <br>
+
+
+        </div>
+        <img class="landing-page-image" src="Images/landing-page-image.png">
+        <a href="#category"> <img class="down-icon" src="Images/nav-down-icon.png"></a>
+
+
+    </div>
+    <br>
+    <div id="hidden"><br><br><br><br><br><br><br><br><br><br></div>
+    <div id="category"><br><br><br><br></div>
+    <div id="landing-category">
+        <h1 id="categories">Categories</h1>
+        <hr>
+    </div>
+    <!-- Category Grid -->
+    <div class="row">
+        <style>
+            .row h3 {
+                color: white;
+            }
+        </style>
+
+        <div class="column">
+            <div class="content">
+
+                <img src="Images/desktop-pic.jpg" alt="Desktop" onclick="window.location.href='store.html'" style="width:100%">
+
+
+                <h3>Desktops</h3>
+
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <img src="Images/laptop-pic.jpg" alt="Laptop" onclick="window.location.href='store.html'" style="width:100%">
+                <h3>Laptops</h3>
+
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <img src="Images/hardware-pic.jpg" alt="Hardware" onclick="window.location.href='store.html'" style="width:100%">
+                <h3>Hardware</h3>
+
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <img src="Images/accessories-pic.jpeg" alt="Accessories" onclick="window.location.href='store.html'" style="width:100%">
+                <h3>Accessories</h3>
+
+            </div>
+        </div>
+
+
+
+        <div id="hrline">
+
+            <h1>&nbsp</h1>
+            <hr>
+            <h1>&nbsp</h1>
+            <h1>Ever dream of building a beast PC?</h1>
+            <h4>With CudaWare's Custom Computer Builer Everything is possible!</h3>
+                <h1>&nbsp</h1>
+                <hr>
+                <h1>&nbsp</h1>
+        </div>
+    </div>
+    <!-- END GRID -->
+
+    <!-- Category Grid -->
+    <div class="row2">
+        <div class="column">
+            <div class="content1">
+
+
+                <h1>&nbsp</h1>
+                <h1>&nbsp</h1>
+                <h1>&nbsp</h1>
+                <h1>Featured</h1>
+                <p>New desktops and laptops<br>now available with 11th gen<br>Intel© Core™ Processors and<br>Geforce RTX 30 Series with<br>Max-P design.</p>
+                <button type="button" onclick="window.location.href='store.html'">SHOP ALL FAVOURITES</button>
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <div class="text-block">
+                    <h4>SOLD OUT</h4>
+                </div>
+                <img src="Images/laptop-pic.jpg" alt="AORUS_Laptop" style="width:100%">
+                <h4>AORUS 15P</h4>
+                <h2>RM 5,000</h2>
+
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <img src="Images/rog-strix-desktop.png" alt="ROG_Desktop" onclick="window.location.href='store.html'" style="width:100%">
+                <h4>ROG STRIX GL12CX</h4>
+                <h2>RM 6,000</h2>
+
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <img src="Images/i9-11thgen.jpg" alt="Intel_CPU" onclick="window.location.href='store.html'" style="width:100%">
+                <h4>Intel© Core™ i9 11th Gen</h4>
+                <h2>RM 1,800</h2>
+            </div>
+        </div>
+
+    </div>
+    <!-- END GRID -->
+
+
+
+    <div class="recommendations">
+        <h1>&nbsp</h1>
+        <div class="text-block1">
+            <p>Built by</p>
+            <h4>Hardcore Gamer</h4>
+        </div>
+        <img src="Images/recommends-1.jpg" alt="recommendations-1" onclick="window.location.href='store.html'" style="height: 50vh; cursor: pointer;">
+        <div class="text-block2">
+            <p>Built by</p>
+            <h4>Office Rat</h4>
+        </div>
+        <img src="Images/recommends-2.jpg" alt="Accessories" onclick="window.location.href='store.html'" style="height: 50vh; cursor: pointer;">
+
+    </div>
+
+    <div class="hr1">
+        <hr>
+    </div>
+
+    <footer class="footer-section">
+        <div class="container" style="position: relative; left: 15%;">
+
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="#"><img src="images/logo.png" class="img-fluid" alt="logo"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget" style="position: relative; left: 10%;">
+
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="store.html">Store</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="about.html">About us</a></li>
+                                <li><a href="store.html">Our Services</a></li>
+                                <li><a href="contact.html">Contact us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+
+
+
+</body>
+
+</html>

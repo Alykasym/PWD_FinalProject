@@ -1,0 +1,78 @@
+{
+    "status": "success",
+    "items": [{
+            "id": 1,
+            "title": "Laptop",
+            "price": 4350,
+            "image": "./images/product-1.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Desktop",
+            "price": 2350,
+            "image": "./images/product-2.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Workstation",
+            "price": 2050,
+            "image": "./images/product-3.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Case",
+            "price": 200,
+            "image": "./images/product-4.jpg"
+        },
+        {
+            "id": 5,
+            "title": "ROG Falchion Keyboard",
+            "price": 80,
+            "image": "./images/product-5.jpg"
+
+        },
+        {
+            "id": 6,
+            "title": "ASUS WT460 Mouse",
+            "price": 50,
+            "image": "./images/product-6.jpg"
+
+        },
+        {
+            "id": 7,
+            "title": "GeForce RTX™ 3080 Ti",
+            "price": 3900,
+            "image": "./images/product-7.jpg"
+        },
+        {
+            "id": 8,
+            "title": "Intel Core i9 11900K",
+            "price": 1300,
+            "image": "./images/product-8.jpg"
+        },
+        {
+            "id": 9,
+            "title": "Desktop",
+            "price": 3900,
+            "image": "./images/product-2.jpg"
+        },
+        {
+            "id": 10,
+            "title": "ASUS WT460 Mouse",
+            "price": 50,
+            "image": "./images/product-6.jpg"
+        },
+        {
+            "id": 11,
+            "title": "RTX 4090Ti",
+            "price": 10000,
+            "image": "./images/1.jpeg"
+        },
+        {
+            "id": 12,
+            "title": "Laptop",
+            "price": 4350,
+            "image": "./images/product-1.jpg"
+        }
+    ]
+}

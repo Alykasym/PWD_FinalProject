@@ -1,0 +1,61 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css" />
+</head>
+
+<body>
+
+    <section>
+        <img src="images/Albedo.png" alt="background image">
+        <div class="container">
+            <div class="user signinBx">
+                <div class="imgBx"><img src="images/toph_login.jpg" alt="toph_login" /></div>
+                <div class="formBx">
+
+                    <a href="index.html">
+                        <img style="position: absolute; top: 0;right: 0; cursor:pointer;z-index: 1;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAA/0lEQVRYR+2WYQrDMAiFX2+2nWTbybadZDvaECoEaeLTtNCB/ipEk89nTF1wMltOxoMC8ipSCpVCngLe+t/foQuAr5elWQ/FRBS6A3gCeAF4kFDie1v95ds1Fkiy/DS7MVAKo2FXRl0WSDa1B4ygrO8bgCjsWgSIhUrDyAFRIA9qCiYL1IOS5OQCq9FlauuYUUjjrRrtvimYGYVGUGmYo4CYJ6HbbUeVLA2VBdrqJsm6vdQpqAzQqLUjj+dm2aJAzDszBRUBYmB63UeXjwWyP1emtQ//uer4wcBYpWRc2XX80ANCw9YaFIphS+aODXs5FJCnZClUCnkKeOt1hzyFfkXOOiUAeiaoAAAAAElFTkSuQmCC"
+                        />
+                    </a>
+                    <form action="" onsubmit="return false;">
+                        <h2>Sign In</h2>
+                        <input type="text" name="" placeholder="Username" />
+                        <input type="password" name="" placeholder="Password" />
+                        <input type="submit" onclick="location.href='/index.html'" name="" value="Login" />
+                        <p class="signup">
+                            Don't have an account ?
+                            <a href="#" onclick="toggleForm();">Sign Up.</a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+            <div class="user signupBx">
+                <div class="formBx">
+                    <form action="" onsubmit="return false;">
+                        <h2>Create an account</h2>
+                        <input type="text" name="" placeholder="Username" />
+                        <input type="email" name="" placeholder="Email Address" />
+                        <input type="password" name="" placeholder="Create Password" />
+                        <input type="password" name="" placeholder="Confirm Password" />
+                        <input type="submit" onclick="location.href='/index.html'" name="" value="Sign Up" />
+                        <p class="signup">
+                            Already have an account ?
+                            <a href="#" onclick="toggleForm();">Sign in.</a>
+                        </p>
+                    </form>
+                </div>
+                <div class="imgBx"><img src="images/gura_login.jpeg" alt="gura_login" /></div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/login.js"></script>
+
+
+</body>
+
+</html>
