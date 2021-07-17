@@ -93,6 +93,7 @@
         
         .landing-text {
             font-family: ShareTechMono;
+            padding-top: 10vh;
             position: relative;
             transform: translate(10%, 40%);
         }
@@ -113,8 +114,9 @@
         
         .landing-page-image {
             position: relative;
+            padding-top: 5vh;
             transform: translate(120%, -55%);
-            object-fit: scale-down;
+            object-fit: contain;
             width: 40vw;
             height: 40vh;
         }
@@ -156,12 +158,12 @@
             }
             .small-screen {
                 display: block;
-                position: absolute;
-                top: 30vh;
-                right: 5vw;
+                position: relative;
+                width: 420px;
                 border-top: 2px ridge rgba(255, 255, 255, 0.171);
                 border-bottom: 2px ridge rgba(255, 255, 255, 0.171);
                 transition: 0.5s ease-in-out;
+                transform: translate(140%, -50%);    
             }
             .small-screen h1 {
                 font-family: samsungsharp, tahoma;
@@ -171,7 +173,7 @@
             .small-screen p {
                 font-family: samsungone, tahoma;
                 font-weight: 700;
-                font-size: 20px;
+                font-size: 15px;
                 color: #bb4141;
             }
             .landing img {
@@ -181,24 +183,18 @@
         
         @media screen and (max-width: 1025px) {
             .small-screen {
-                right: 2vw;
+                transform: translate(135%, -50%);
                 transition: 0.5s ease-in-out;
             }
         }
         
         @media screen and (max-width: 990px) {
             .small-screen {
-                top: 30vh;
-                right: 5vw;
+                transform: translate(113%, -50%);
             }
-            .small-screen h1 {
-                font-size: 17px;
-            }
+
             .small-screen p {
-                font-family: samsungone, tahoma;
-                font-weight: 700;
-                font-size: 12px;
-                color: #bb4141;
+                font-size: 15px;
             }
             #stick {
                 transform: translate(-10%, -60%);
@@ -240,9 +236,11 @@
             .small-screen {
                 display: block;
                 position: relative;
-                transform: translate(5%, 235%);
+                transform: translate(5%, 455%);
                 border-top: 2px ridge rgba(255, 255, 255, 0.171);
                 border-bottom: 2px ridge rgba(255, 255, 255, 0.171);
+                width: 98vw;
+                margin-left: -4vw;    
             }
             .small-screen h1 {
                 font-family: samsungsharp, tahoma;
@@ -267,7 +265,7 @@
         
         @media screen and (max-width: 572px) {
             .small-screen {
-                transform: translate(5%, 207%);
+                transform: translate(5%, 377%);
                 padding-left: 5px;
                 padding-right: 5px;
             }
