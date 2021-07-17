@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Help</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+    <link rel="stylesheet" href="css/helpPage.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+
+</head>
+
+<body translate="no">
+
+
+    <nav>
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.png" alt="Logo Image"></a>
+        </div>
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="store.html">Products</a></li>
+            <li><a href="benchmark.html">Benchmarks</a></li>
+            <li><a href="help.html">Help</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li>
+                <a>&nbsp;&nbsp;&nbsp;</a>
+            </li>
+            <div id="login_button_nav">
+                <a href="login_reg.html">
+                    <li><button class="login-button" id="login-button">Login</button></li>
+                </a>
+
+            </div>
+            <li><input type="image" class="cart_icon" name="<Cart>" src="images/cart-icon.png" alt="Cart"><span class="item__total">0</span></li>
+
+        </ul>
+
+    </nav>
+
+
+
+
+    <section class="cart__overlay">
+        <div class="cart" style="color: white;">
+            <span class="close__cart">
+        <svg>
+          <use xlink:href="./images/sprite.svg#icon-cross"></use>
+        </svg>
+      </span>
+            <h1 style="color: white;">Your Cart</h1>
+            <div class="cart__centent">
+                <!-- Cart Item -->
+                <style>
+                    h3 {
+                        color: white;
+                    }
+                    
+                    .item__amount {
+                        color: white;
+                    }
+                </style>
+
+            </div>
+
+            <div class="cart__footer">
+                <h3 style="color: white;">Total: $ <span class="cart__total" style="color: white;">0</span></h3>
+                <button class="clear__cart btn">Clear Cart</button>
+                <button class="checkout btn" onclick="location.href='checkout.html'">Checkout</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="product__center">
+        </div>
+    </section>
+
+
+    <!-- Hero -->
+    <section class="et-hero-tabs">
+        <h1>Frequently Asked Questions</h1>
+        <h3>Choose section below that you are interested with!</h3>
+        <div class="et-hero-tabs-container">
+
+            <a class="et-hero-tab" href="#tab-order">Order</a>
+            <a class="et-hero-tab" href="#tab-payment">Payment</a>
+            <a class="et-hero-tab" href="#tab-shipment">Shipment</a>
+            <a class="et-hero-tab" href="#tab-cancellation">Cancellation</a>
+            <span class="et-hero-tab-slider"></span>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <main class="et-main">
+
+        <section class="et-slide" id="tab-order">
+            <h1 style="font-size:xx-large; margin-bottom: 50px;">How Do I place the order?</h1>
+            <h3 style="font-size:larger;">- You can choose to continue shopping or go directly to CHECKOUT.<br><br> <br>- Once you have selected all the items you would like to purchase, click on the<br>Shopping Cart icon located at the top right corner of the page to review your
+                order
+                <br>and proceed to checkout.</h3>
+        </section>
+        <section class="et-slide" id="tab-payment">
+            <h1 style="font-size:xx-large; margin-bottom: 50px;">What Payment Methods Are Available?</h1>
+            <h3 style="font-size:larger;">We accept a variety of payment method via ipay88(local internet banking and<br>credit/debits cards). Ipay88 is a regulated payment service provider under Malaysia<br>Payment System Act offering local internet banking service such as:<br><br>1)
+                Maybank2U
+                <br>2) CIMB <br>3) RHB Online <br>4) Hong Leong Online <br>5) Ambank <br>6) Alliance <br>7) Bank Rakyat Online <br>8) Affin <br>9) Bank Simpanan Nasional</h3>
+        </section>
+
+        <section class="et-slide" id="tab-shipment">
+            <h1 style="font-size:xx-large; margin-bottom: 50px;">Can I request a specific day or time slots for the delivery?</h1>
+            <h3 style="font-size:larger;"><br><br>We are unable to cater to that request currently.</h3>
+        </section>
+
+        <section class="et-slide" id="tab-cancellation">
+            <h1 style="font-size:xx-large; margin-bottom: 50px;">Can I cancel my orders?</h1>
+            <h3 style="font-size:larger;"><br><br>Sorry, order cancellation is not permitted once the purchase had been made.</h3>
+        </section>
+
+    </main>
+    <footer class="footer-section">
+        <div class="container" style="position: relative; left: 10%;">
+
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="#"><img src="images/logo.png" class="img-fluid" alt="logo"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="store.html">Store</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="about.html">About us</a></li>
+                                <li><a href="store.html">Our Services</a></li>
+                                <li><a href="contact.html">Contact us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src="js/helpPage.js"></script>
+    <script src="js/script.js"></script>
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>About Us</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+    <link rel="stylesheet" href="css/helpPage.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+
+</head>
+
+<body translate="no">
+
+    <nav>
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.png" alt="Logo Image"></a>
+        </div>
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="store.html">Products</a></li>
+            <li><a href="benchmark.html">Benchmarks</a></li>
+            <li><a href="help.html">Help</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li>
+                <a>&nbsp;&nbsp;&nbsp;</a>
+            </li>
+            <div id="login_button_nav">
+                <a href="login_reg.html">
+                    <li><button class="login-button" id="login-button">Login</button></li>
+                </a>
+
+            </div>
+            <li><input type="image" class="cart_icon" name="<Cart>" src="images/cart-icon.png" alt="Cart"><span class="item__total">0</span></li>
+
+        </ul>
+
+    </nav>
+
+    <section class="cart__overlay">
+        <div class="cart" style="color: white;">
+            <span class="close__cart">
+        <svg>
+          <use xlink:href="./images/sprite.svg#icon-cross"></use>
+        </svg>
+      </span>
+            <h1 style="color: white;">Your Cart</h1>
+            <div class="cart__centent">
+                <!-- Cart Item -->
+                <style>
+                    h3 {
+                        color: white;
+                    }
+                    
+                    .item__amount {
+                        color: white;
+                    }
+                </style>
+
+            </div>
+
+            <div class="cart__footer">
+                <h3 style="color: white;">Total: $ <span class="cart__total" style="color: white;">0</span></h3>
+                <button class="clear__cart btn">Clear Cart</button>
+                <button class="checkout btn" onclick="location.href='checkout.html'">Checkout</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="product__center">
+        </div>
+    </section>
+
+
+    <!-- Hero -->
+    <section class="et-hero-tabs">
+        <h1>About Us</h1>
+        <h3>Choose section below that you are interested with!</h3>
+        <div class="et-hero-tabs-container">
+
+            <a class="et-hero-tab" href="#tab-background">Background</a>
+            <a class="et-hero-tab" href="#tab-objective">Objective</a>
+            <a class="et-hero-tab" href="#tab-audience">Intended Audience</a>
+
+            <span class="et-hero-tab-slider"></span>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <main class="et-main">
+
+        <section class="et-slide" id="tab-background">
+            <h1 style="font-size:xx-large; margin-bottom: 50px;">Background</h1>
+            <h3 style="font-size:larger;">CudaWare is an e-commerce website which had published<br>in May 2021. It is offering a desktop, laptop and accessories.<br>After they received some feedback from the consumers about<br>they should add a benchmark feature that allows users
+                to
+                <br>enter their PC parts and the system will automatically analyze<br>their setup performance (FPS) in the games, CudaWare updated<br>this feature on their website after a month of development.</h3>
+        </section>
+        <section class="et-slide" id="tab-objective">
+            <h1 style="font-size:xx-large; margin-bottom: 50px;">Objective</h1>
+            <h3 style="font-size:larger;">The purpose of creating a Computer Building service is to help consumers to reduce money spent on a pre-built computer of a brand, where all the computer components are made with the same manufacturer. With CudaWare, customers have a wide
+                variety of brand selections on the parts that they would like to buy and build a computer with the parts from different manufacturers. The website also offers a benchmark feature where users or customers can analyze their setup gaming
+                performance before they make a purchase. Customers can also buy an individual component from the website such as RAM if they would like to upgrade their existing PC. </h3>
+        </section>
+
+        <section class="et-slide" id="tab-audience">
+            <h1 style="font-size:xx-large; margin-bottom: 50px;">Intended Audience</h1>
+            <h3 style="font-size:larger;"><br><br>CudaWare knows that their customers are in need of performance, speed while reducing the cost of building one. They target desktop, laptop, workstation, casual/home users, youths, and budget PC builders. They provide a wide variety
+                of brand selections which means that it is affordable for consumers who are low on budget. CudaWare is aimed at customers who range from 12 to 40 years old, they can be either gamers, casual users, work from home entrepreneurs, or a student
+                who is moving to secondary school. They target customers that are single and most who are at the high school level or higher that are dealing with studies or who are free most of the time with an annual household income of RM2,000 or below.
+                They target customers that need speed yet want affordable products. Customers that play demanding games like PUBG, GTA V, Cyberpunk 2077, etc.</h3>
+        </section>
+
+
+    </main>
+    <footer class="footer-section">
+        <div class="container" style="position: relative; left: 10%;">
+
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="#"><img src="images/logo.png" class="img-fluid" alt="logo"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="store.html">Store</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="about.html">About us</a></li>
+                                <li><a href="store.html">Our Services</a></li>
+                                <li><a href="contact.html">Contact us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src="js/helpPage.js"></script>
+    <script src="js/script.js"></script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/normalize.css" />
+
+    <link rel="stylesheet" href="css/checkout.css" />
+
+
+    <title>Checkout</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.png" alt="Logo Image"></a>
+        </div>
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="store.html">Products</a></li>
+            <li><a href="benchmark.html">Benchmarks</a></li>
+            <li><a href="help.html">Help</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li>
+                <a>&nbsp;&nbsp;&nbsp;</a>
+            </li>
+            <div id="login_button_nav">
+                <a href="login_reg.html">
+                    <li><button class="login-button" id="login-button">Login</button></li>
+                </a>
+
+            </div>
+            <li><input type="image" class="cart_icon" name="<Cart>" src="Images/cart-icon.png" alt="Cart"><span class="item__total">0</span></li>
+
+        </ul>
+
+    </nav>
+
+
+
+    <section class="cart__overlay">
+        <div class="cart">
+            <span class="close__cart">
+        <svg>
+          <use xlink:href="./images/sprite.svg#icon-cross"></use>
+        </svg>
+      </span>
+            <h1>Your Cart</h1>
+            <div class="cart__centent">
+                <!-- Cart Item -->
+
+            </div>
+
+            <div class="cart__footer">
+                <h3>Total: $ <span class="cart__total">0</span></h3>
+                <button class="clear__cart btn">Clear Cart</button>
+            </div>
+        </div>
+    </section>
+    <section class="products">
+        <div class="product__center">
+        </div>
+    </section>
+
+    <div class="toast-area" id="toasts">
+        <div style="display: none">
+            <div class="toast" id="clonemother">
+                <div class="toast-content">
+                    <div class="before"></div>
+                    <div class="icon">&#x2714</div>
+                    <div class="text">
+                        <p>Thank You For Purchase!</p>
+                        <p class="message">Your order will be delivered one day... By PosLambat.</p>
+                    </div>
+                    <div onclick="deletethis()" class="close">&#x00D7</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="buttontoast"><button>Purchase</button></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
