@@ -93,7 +93,6 @@
         
         .landing-text {
             font-family: ShareTechMono;
-            padding-top: 10vh;
             position: relative;
             transform: translate(10%, 40%);
         }
@@ -114,9 +113,8 @@
         
         .landing-page-image {
             position: relative;
-            padding-top: 5vh;
             transform: translate(120%, -55%);
-            object-fit: contain;
+            object-fit: scale-down;
             width: 40vw;
             height: 40vh;
         }
@@ -158,12 +156,12 @@
             }
             .small-screen {
                 display: block;
-                position: relative;
-                width: 420px;
+                position: absolute;
+                top: 30vh;
+                right: 5vw;
                 border-top: 2px ridge rgba(255, 255, 255, 0.171);
                 border-bottom: 2px ridge rgba(255, 255, 255, 0.171);
                 transition: 0.5s ease-in-out;
-                transform: translate(140%, -50%);    
             }
             .small-screen h1 {
                 font-family: samsungsharp, tahoma;
@@ -173,7 +171,7 @@
             .small-screen p {
                 font-family: samsungone, tahoma;
                 font-weight: 700;
-                font-size: 15px;
+                font-size: 20px;
                 color: #bb4141;
             }
             .landing img {
@@ -183,18 +181,24 @@
         
         @media screen and (max-width: 1025px) {
             .small-screen {
-                transform: translate(135%, -50%);
+                right: 2vw;
                 transition: 0.5s ease-in-out;
             }
         }
         
         @media screen and (max-width: 990px) {
             .small-screen {
-                transform: translate(113%, -50%);
+                top: 30vh;
+                right: 5vw;
             }
-
+            .small-screen h1 {
+                font-size: 17px;
+            }
             .small-screen p {
-                font-size: 15px;
+                font-family: samsungone, tahoma;
+                font-weight: 700;
+                font-size: 12px;
+                color: #bb4141;
             }
             #stick {
                 transform: translate(-10%, -60%);
@@ -236,11 +240,9 @@
             .small-screen {
                 display: block;
                 position: relative;
-                transform: translate(5%, 455%);
+                transform: translate(5%, 235%);
                 border-top: 2px ridge rgba(255, 255, 255, 0.171);
                 border-bottom: 2px ridge rgba(255, 255, 255, 0.171);
-                width: 98vw;
-                margin-left: -4vw;    
             }
             .small-screen h1 {
                 font-family: samsungsharp, tahoma;
@@ -265,7 +267,7 @@
         
         @media screen and (max-width: 572px) {
             .small-screen {
-                transform: translate(5%, 377%);
+                transform: translate(5%, 207%);
                 padding-left: 5px;
                 padding-right: 5px;
             }
@@ -280,6 +282,10 @@
         #landing-category {
             width: 90%;
             transform: translate(6%, 0%);
+        }
+        
+        .row h3 {
+            color: white;
         }
         
         .row {
@@ -557,6 +563,14 @@
             background-color: rgba(0, 0, 0, 0.7);
             visibility: hidden;
             z-index: 2;
+        }
+        
+        .cart__overlay h3 {
+            color: white;
+        }
+        
+        .item__amount {
+            color: white;
         }
         
         .cart {
